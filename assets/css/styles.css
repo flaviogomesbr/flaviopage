@@ -177,9 +177,22 @@ img{
   background-color: var(--first-color);
   color: #370252;
 }
+.nav__linkb:hover{
+  position: relative;
+}
+.nav__linkb:hover::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--first-color);
+  color: #370252;
+}
 .nav__logo{
   /*color: var(--second-color);*/
-  color: #370252;
+  color: white;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -236,10 +249,19 @@ img{
   font-size: 3.5rem;
   color: var(--second-color);
 }
+.home__social-iconc{
+  width: max-content;
+  /*margin-bottom: var(--mb-2);*/
+  font-size: 1.15rem;
+  color: var(--second-color);
+}
 .home__social-icon:hover{
   color:  #64DFDF;
 }
 .home__social-iconb:hover{
+  color:  #64DFDF;
+}
+.home__social-iconc:hover{
   color:  #64DFDF;
 }
 .home__img{
